@@ -1,0 +1,17 @@
+ A locator is a way to identify and access a specific element on a web page or application.
+The primary usage of a locator is to locate a web element on the web page.
+The locators can then beused in Selenium WebDriver test scripts to interact with the web element and perform different actions
+such as clicking, entering keys, opening a dropdown, ticking a checkbox, etc.
+
+
+Importance of Locator
+1. Identify elements: Locate specific elements on a web page, such as buttons, text fields, or links.
+2. Interact with elements: Perform actions on the identified elements, like clicking, typing, or selecting.
+3. Verify element behavior: Check if the element is present, visible, or has the expected behavior.
+
+types of locators:
+1. ID: Unique identifier for an element
+2. Name: Name attribute of an element
+3. Class: CSS class of an element
+4. XPath: A way to navigate through the HTML structure of a page
+5. CSS Selector: A way to select elements using CSS selectors
