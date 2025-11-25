@@ -1,0 +1,23 @@
+1. First div element:                                                           
+    1.XPath: /form/div[2]
+    2. CSS Selector: form > div.textbox.div:nth-child(2)
+   
+2. Second div element:
+    1.XPath: /form/div[2]
+    2. CSS Selector: form > div.textbox.div:nth-child(2)
+
+3. Div elements with class "textbox div":
+    1.XPath: /form/div[@class='textbox div']
+    2.CSS Selector: form > div.textbox.div
+
+4. Div elements with id "div":
+    1.XPath: /form/div[@id='div']
+    2. CSS Selector: form > div#div
+
+5. Div elements with placeholder "user":
+    1. XPath: /form/div[@placeholder='user']
+    2. CSS Selector: form > div[placeholder='user']
+
+6. Div elements with placeholder "name":
+    1. XPath: /form/div[@placeholder='name']
+    2. CSS Selector: form > div[placeholder='name']
