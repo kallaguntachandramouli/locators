@@ -1,0 +1,18 @@
+XPath (XML Path Language) is a way to navigate through the structure of an XML or HTML document.
+
+how XPath Works
+XPath uses a syntax to specify the location of an element in an HTML document. 
+1./html/body/div[1]/p: Selects the first p element inside the first div element, which is inside the body element.
+2. //input[@name='username']: Selects all input elements with a name attribute equal to 'username'.
+3./html/body/div/p[1]: Selects the first p element inside the div element, which is inside the body element.
+
+Types of XPath:
+There are two types of XPath:
+1. Absolute XPath: Starts from the root element and specifies the full path to the element.
+Example: /html/body/div[1]/form/input
+2. Relative XPath: Starts from a specific element and specifies the path relative to that element.
+ Example: //input[@id='username']
+
+Importance of XPath
+XPath is widely used in web scraping, automation, and testing because it provides a powerful way to locate elements in an HTML document.
+
